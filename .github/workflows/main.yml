@@ -57,3 +57,7 @@ jobs:
          aws-region: us-east-1
       - name: List buckets
         run: aws s3 ls
+      - name: Upload .py files to s3
+        run: |
+          find . -name "*.py" -type f -exec aws s3 cp {} s3://githubproject2003/code/ \;
+          find . -name "*.txt" -type f -exec aws s3 cp {} s3://githubproject2003/code/ \;
