@@ -68,5 +68,7 @@ jobs:
 
       - name: Deploy with Zappa
         run: |
-          pip install zappa
+          pip install zappa}
+          zappa update dev
+          zappa invoke Lambda.lambda_handler
           zappa deploy dev  
