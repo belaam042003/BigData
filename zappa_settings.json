@@ -2,7 +2,7 @@
     "dev": {
         "app_function": "Lambda.lambda_handler",
         "aws_region": "us-east-1",
-        "project_name": "bigdata",
+        "project_name": "BigData",
         "runtime": "python3.8",
         "s3_bucket": "zappa-jo5cyoftv",
         "apigateway_enabled": false,
