@@ -10,8 +10,8 @@
         "manage_roles": false,
         "role_name": "robomaker_students",
         "keep_warm": false,
-        "role_name": "LabRole"
-        "profile_name": "default"
+        "role_name": "LabRole",
+        "profile_name": "default",
         "events": [
             {
                 "function": "Lambda.py",
