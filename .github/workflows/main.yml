@@ -74,4 +74,5 @@ jobs:
       - name: Deploy with Zappa
         run: |
           pip install zappa
+          zappa update dev
           zappa deploy dev  
