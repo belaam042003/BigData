@@ -11,3 +11,4 @@ def test_restar():
     assert restar(6, 4) == 2
     assert restar(1, 4) == -3
     assert restar(2, 2) == 0
+    
