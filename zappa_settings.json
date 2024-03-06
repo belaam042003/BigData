@@ -7,7 +7,6 @@
         "s3_bucket": "zappa-jo5cyoftv",
         "apigateway_enabled": false,
         "manage_roles": false,
-        "role_name": "robomaker_students",
         "keep_warm": false,
         "role_name": "LabRole",
         "events": [
