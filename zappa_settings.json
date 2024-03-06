@@ -13,7 +13,7 @@
         "events": [
             {
                 "function": "Lambda.py",
-                "expression": "cron(07 4 * * ? *)"  // Ejecutar todos los días a las 8:00 UTC
+                "expression": "cron(08 4 * * ? *)"  // Ejecutar todos los días a las 8:00 UTC
             }
         ] 
     }
