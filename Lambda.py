@@ -4,7 +4,7 @@ from datetime import datetime
 
 def lambda_handler(event, context):
     try:
-        print("Prueba realizada2")
+        print("Prueba realizada22")
         # Obtener la fecha actual en el formato yyy-mm-dd
         fecha_actual = datetime.now().strftime('%Y-%m-%d')
 
